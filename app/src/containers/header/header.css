@@ -1,0 +1,30 @@
+.header {
+    overflow: hidden;
+    background-color: #fafafb !important;
+    color: black;
+    padding: .5rem 1rem;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index:10;
+    display: flex;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+    border-top: 2px solid orangered;
+    justify-content: space-between;
+  }
+.header-brand{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: .25rem;
+    padding-bottom: .3rem;
+    margin-right: 1rem;
+    padding-left:2%; 
+    font-size:20px;
+    text-decoration: none;
+}
+.fa{
+    color: grey;
+    padding-top: .40rem;
+}

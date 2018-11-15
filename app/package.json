@@ -1,0 +1,30 @@
+{
+  "name": "newsletter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
+    "history": "^4.7.2",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.4.0-beta.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "echarts": "^4.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6",
+    "redux-immutable-state-invariant": "^2.1.0"
+  }
+}
